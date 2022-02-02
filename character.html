@@ -1,0 +1,63 @@
+<!-- Created By Vlads Drobovics -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="css/index_style.css" >
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body onload ="start()">
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">D&D with Extra Steps</label>
+      <ul>
+        <li><a class = "active" href="index.html">Home<i class="fa fa-fw fa-home"></i></a></li>
+        <li><a href = "character.html">Character</a></li>
+        <li><a href = "StoredC.html">Stored Character</a></li>
+        <li><a href = "login.html">Login <i class="fa fa-fw fa-user"></i> </a></li>
+      </ul>
+    </nav>
+    <section>
+    </section>
+
+    </div>
+    <footer><!-- This is the Footer bar-->
+		<div class= "social-media">
+			<ul>
+        <li><a  href ="https://github.com/VladsD-RTV/Wev-Dev"><img src="images/black-github.png"></a></li>
+        <li><a href ="https://www.instagram.com/vladxenoch/"><img src="images/black-instagram.png"></a></li>
+        <li><a href ="https://www.pinterest.ie/VladXEnochInc/"><img  src="images/black-pinterest.png"></a></li>
+        <li><a href ="https://twitter.com/EnochVlad" ><img src="images/black-twitter.png"></a></li>
+			</ul>
+		</div>
+        <div class="wrapp">
+			<p><a href="index.html">Home</a>
+			| <a href="about.html">About </a>
+			| <a href="Sources.html">Sources </a>
+			| <a href="contact.html">Contact Us</a></p>
+
+			<p>Copyright &copy; Vlads & Enoch Online Website|
+			<a href="index.html">VE Inc</a></p>
+
+			<!-- Script 1: Dynamic webpage updates-->
+			<div id= "realtime"> </div>
+			<!-- Script 2: Hit Page Counter-->
+			<div id= "hits"> </div>
+			<!-- Script 3: Browser Detection-->
+			<div id= "browser"> </div>
+			<!-- Script 4:  Scrolling Text-->
+			<form name="msg">
+				<input type="text" size=30 name="message">
+			</form>
+		</div>
+	</footer>
+  <script type="text/javascript" src="js/index_script.js"></script>
+  <script type="text/javascript" src="js/jquery-3.5.1.js"></script>
+  <script type="text/javascript" src="js/image-fader.js"></script>
+  <script> function start(){ browserDetection(); myTimer(); hitCount(); scrollBox(); }</script>
+  </body>
+</html>

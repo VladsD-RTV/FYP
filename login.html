@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Login & Registration Form</title>
+	<link rel="stylesheet" type="text/css" href="css/login_style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800&display=swap">
+</head>
+<body>
+	<!-- Sign In Tab-->
+	<div class="cont">
+		<form id="signin" class="form sign-in" method="post" action="/login">
+			<h2>Sign In</h2>
+			 <label for="username"><span>Email Address</span>
+				<input id ='username' name="username" type="email">
+			</label>
+			<label for="password"><span>Password</span>
+				<input id="password" name="password" type="password">
+			</label>
+			<button id="subbutton" class="submit" type="submit">Sign In</button>
+			<form>
+				<div class="checkbox">
+
+				</div>
+				<div class="social-media">
+				<ul>
+					<li><a href = "https://github.com/VladsD-RTV"><img src="png/github.png" alt="GitHub"></a></li>
+					<li><a href = "https://twitter.com/EnochVlad"><img src="png/twitter.png" alt="Twitter"></a></li>
+					<li><a href = "https://www.pinterest.ie/VladXEnochInc"><img src="png/pinterest.png" alt="Pinterest"></a></li>
+					<li><a href = "https://www.instagram.com/vladxenoch"><img src="png/instagram.png" alt="Instagram"></a></li>
+				</ul>
+				</div>
+			</form>
+		</form>
+
+	<!-- Switch Tab-->
+	<div id="subc" class="sub-cont">
+      <div class="img">
+        <div class="img-text m-up">
+          <h2>New around these parts?</h2>
+          <p>Sign up and discover the world of D&D</p>
+        </div>
+        <div class="img-text m-in">
+          <h2>Already part of the crew?</h2>
+          <p>If you already has an account, just sign in. We've missed you!</p>
+        </div>
+        <div class="img-btn">
+          <span class="m-up">Sign Up</span>
+          <span class="m-in">Sign In</span>
+        </div>
+      </div>
+
+	  <!-- Sign Up Tab-->
+      <form id="signup" class="form sign-up">
+        <h2>Sign Up</h2>
+        <label for="fname"><span>Name</span>
+          <input id='fname' name='fname' type="text">
+        </label>
+        <label for='email'><span>Email</span>
+          <input id='email' name='email' type="email">
+        </label>
+        <label for='passwd'><span>Password</span>
+          <input id='passwd' name='passwd'type="password">
+        </label>
+		<label>
+		</label>
+        <button id="button" type="button" class="submit">Sign Up Now</button>
+      </form>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js"></script>
+  <script type="text/javascript" src="js/login_script.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+</body>
+<html>
